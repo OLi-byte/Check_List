@@ -1,0 +1,66 @@
+.task-container {
+    background-color: var(--background);
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+}
+
+.task-title {
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.task-title:hover {
+    background-color: var(--background);
+    color: cornflowerblue;
+}
+
+.remove-task, .see-details, .add_description, .add_date {
+    background-color: var(--background);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: cornflowerblue;
+    margin: 0 5px;  
+    transition: all 0.2s ease;
+}
+
+.remove-task:hover, .see-details:hover, .add_description:hover, .add_date:hover {
+    color: rgb(50, 54, 61);
+}
+
+.add_descreption_input {
+    height: 40px;
+    width: 80%;
+    padding: 0 18px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 50, 50);
+    color: #eee;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.add_date_input {
+    height: 40px;
+    width: 80%;
+    padding: 0 18px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 50, 50);
+    color: #eee;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.buttons-container {
+    display: flex;
+    padding: 5px;
+}

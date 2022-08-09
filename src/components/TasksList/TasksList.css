@@ -1,0 +1,17 @@
+.tasksList_container {
+    height: 500px;
+    max-width: 450px;
+    min-width: 300px;
+    border: 2px solid cornflowerblue;
+    overflow: auto;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #eee;
+}
+
+::-webkit-scrollbar {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 0%;
+  }

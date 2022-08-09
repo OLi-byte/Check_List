@@ -1,0 +1,52 @@
+.container {
+    height: 500px;
+    max-width: 450px;
+    min-width: 300px;
+    border: 2px solid cornflowerblue;
+    overflow: auto;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.task-details-container {
+    background-color: var(--background);
+    margin: 10px 0;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.taskTitle {
+    color: cornflowerblue;
+}
+
+.taskNotFinished_Message {
+    color: rgb(110, 108, 108);
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.taskFinished_Message {
+    color: cornflowerblue;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.noDescreption_title {
+    color: rgb(110, 108, 108);
+}
+
+.dateAlert_title {
+    color: rgb(114, 17, 17);
+}
